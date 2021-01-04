@@ -1,9 +1,10 @@
 # Computer Science and Mathematics, Specialization in Data Science and Artificial Intelligence b.a Degree Courses Materials
 ### By Kfir Goldfarb
-<a href="https://www.ariel.ac.il/wp/" align="center">
-<img src="https://github.com/kggold4/computer-science-b.a-materials/blob/main/images/Ariel_U_logo2.jpg" height="auto" width="500px" align="center">
+<div style="text-align:center">
+<a href="https://www.ariel.ac.il/wp/">
+<img src="https://github.com/kggold4/computer-science-b.a-materials/blob/main/images/Ariel_U_logo2.jpg" height="auto" width="500px">
 </a>
-<br>
+</div>
 
 ### Degree Courses:
 
