@@ -1,6 +1,7 @@
 # Computer Science and Mathematics, Specialization in Data Science and Artificial Intelligence b.a Degree Courses Materials
 ### By Kfir Goldfarb
 <img src="https://github.com/kggold4/computer-science-b.a-materials/blob/main/images/Ariel_U_logo2.jpg" height="auto" width="500px" align="center">
+<br>
 ## Degree Courses:
 * year 1:
 1. Linear Algebra 1
