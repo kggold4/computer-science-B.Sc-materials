@@ -2,7 +2,9 @@
 ### By Kfir Goldfarb
 <img src="https://github.com/kggold4/computer-science-b.a-materials/blob/main/images/Ariel_U_logo2.jpg" height="auto" width="500px" align="center">
 <br>
-## Degree Courses:
+<p>
+<b>Degree Courses:</b>
+</p>
 * year 1:
 1. Linear Algebra 1
 2. Calculus 1
