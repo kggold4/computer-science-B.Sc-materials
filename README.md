@@ -5,7 +5,7 @@
 <p>
 <b>Degree Courses:</b>
 </p>
-* year 1:
+### year 1:
 1. Linear Algebra 1
 2. Calculus 1
 3. Calculus 2
@@ -14,7 +14,7 @@
 6. Data Structures with Java
 7. Discrete mathematics
 8. Number theory
-* year 2:
+### year 2:
 1. Automata theory
 2. Linear algebra 2
 3. Algorithms 1 with Java
@@ -22,4 +22,4 @@
 5. Object Oriented Programming with Java and Python
 6. Systems Programing in C language
 7. Systems Programing in C++ language
-* year 3:
+### year 3:
