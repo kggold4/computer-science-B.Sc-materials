@@ -2,10 +2,10 @@
 ### By Kfir Goldfarb
 <img src="https://github.com/kggold4/computer-science-b.a-materials/blob/main/images/Ariel_U_logo2.jpg" height="auto" width="500px" align="center">
 <br>
-<p>
-<b>Degree Courses:</b>
-</p>
-### year 1:
+
+### Degree Courses:
+
+### Year 1:
 1. Linear Algebra 1
 2. Calculus 1
 3. Calculus 2
@@ -14,12 +14,12 @@
 6. Data Structures with Java
 7. Discrete mathematics
 8. Number theory
-### year 2:
+### Year 2:
 1. Automata theory
 2. Linear algebra 2
 3. Algorithms 1 with Java
 4. Introduction to Data Science with Python
-5. Object Oriented Programming with Java and Python
+5. Object-Oriented Programming with Java and Python
 6. Systems Programing in C language
 7. Systems Programing in C++ language
-### year 3:
+### Year 3:
