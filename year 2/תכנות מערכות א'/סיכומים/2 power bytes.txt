@@ -1,4 +1,0 @@
-2^10 = KiloByte
-2^20 = MegaByte
-2^30 = GigaByte
-2^40 = TeraByte
