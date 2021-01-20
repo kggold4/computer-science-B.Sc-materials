@@ -17,11 +17,16 @@
 7. Discrete mathematics
 8. Number theory
 ### <i>Year 2:</i>
-1. Automata theory
+1. Automata theory 1
 2. Linear algebra 2
 3. Algorithms 1 with Java
-4. Introduction to Data Science with Python
-5. Object-Oriented Programming with Java and Python
-6. Systems Programing in C language
-7. Systems Programing in C++ language
+4. Algorithms 2 with Java
+5. Data visualization with Python
+6. Introduction to Data Science with Python
+7. Networking and Computing
+8. Object-Oriented Programming with Java and Python
+9. Operating Systems
+10. Statistics and probability for computer science 1
+11. Systems Programing in C language
+12. Systems Programing in C++ language
 ### <i>Year 3:</i>
