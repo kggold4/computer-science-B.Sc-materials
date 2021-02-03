@@ -1,0 +1,4 @@
+Hello, this is a text file for testing.
+I trying to copy this text to another file.
+
+This is the last line
