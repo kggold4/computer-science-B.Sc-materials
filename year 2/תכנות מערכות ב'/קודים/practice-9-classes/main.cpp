@@ -1,8 +1,11 @@
+// includes
 #include <iostream>
 #include "LinkedList.hpp"
 #include "Node.hpp"
 
+// namespaces
 using namespace std;
+using namespace ariel;
 
 int main() {
 
@@ -26,6 +29,15 @@ int main() {
     cout << "list: " << l1.toString() << endl;
     cout << "size: " << l1.size() << endl;
 
+    l1.removeNode(8);
+    l1.removeNode(1);
+    l1.removeNode(6);
+    l1.removeNode(9);
+    l1.removeNode(3);
+    l1.removeNode(7);
+
+    cout << "list: " << l1.toString() << endl;
+    cout << "size: " << l1.size() << endl;
 
     return 0;
 }

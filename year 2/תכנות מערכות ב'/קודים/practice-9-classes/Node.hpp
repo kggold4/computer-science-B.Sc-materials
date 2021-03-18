@@ -3,6 +3,7 @@
 
 using namespace std;
 
+namespace ariel {
 class Node {
     private:
         int data;
@@ -14,3 +15,5 @@ class Node {
         std::string toString();
         
 };
+    
+}

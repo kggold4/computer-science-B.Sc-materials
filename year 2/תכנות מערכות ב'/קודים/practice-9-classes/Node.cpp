@@ -3,15 +3,17 @@
 
 using namespace std;
 
-Node::Node(int data) {
-    this->data = data;
-    this->next = nullptr;
-}
+namespace ariel {
+    Node::Node(int data) {
+        this->data = data;
+        this->next = nullptr;
+    }
 
-int Node::getData() {
-    return this->data;
-}
+    int Node::getData() {
+        return this->data;
+    }
 
-std::string Node::toString() {
-    return to_string(this->data);
+    std::string Node::toString() {
+        return to_string(this->data);
+    }
 }

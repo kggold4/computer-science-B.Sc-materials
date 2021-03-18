@@ -4,7 +4,8 @@
 
 using namespace std;
 
-class LinkedList {
+namespace ariel {
+    class LinkedList {
     private:
         Node *head;
         unsigned int n;
@@ -20,3 +21,5 @@ class LinkedList {
         std::string toString();
 
 };
+
+}
