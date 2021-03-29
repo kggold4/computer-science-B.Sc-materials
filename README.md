@@ -16,6 +16,7 @@
 6. Data Structures with Java
 7. Discrete mathematics
 8. Number theory
+
 ### <i>Year 2:</i>
 1. Automata theory 1
 2. Linear algebra 2
