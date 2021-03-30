@@ -5,7 +5,7 @@
 		<img src="https://github.com/kggold4/computer-science-b.a-materials/blob/main/images/Ariel_U_logo2.jpg" height="auto" width="500px">
 	</a>
 </div>
-
+ 
 ### Degree Courses:
 ### <i>Year 1:</i>
 1. Linear Algebra 1
