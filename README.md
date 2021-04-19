@@ -20,7 +20,7 @@
 10. Number theory
 
 
-### <i>Year 2:</i>
+### <i>Year 2: (current)</i>
 1. Automata theory 1
 2. Linear algebra 2
 3. Algorithms 1 with Java
@@ -36,3 +36,4 @@
 
 ### <i>Year 3:</i>
 1. Statistics and probability for computer science 2
+2. Software engineering
