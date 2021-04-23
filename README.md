@@ -12,7 +12,7 @@
 2. Calculus 1
 3. Calculus 2
 4. Data visualization with Python
-5. Introduction t o Data Science with Python 
+5. Introduction to Data Science with Python
 6. Logics and Set theory
 7. Introduction to Java
 8. Data Structures with Java
