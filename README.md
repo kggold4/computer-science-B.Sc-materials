@@ -14,10 +14,10 @@
 4. Data visualization with Python
 5. Introduction to Data Science with Python
 6. Logics and Set theory
-7. Introduction to Java
+7. Introduction to Java and Programming
 8. Data Structures with Java
 9. Discrete mathematics
-10. Number theory
+10. Algorithmic Number theory 
 
 
 ### <i>Year 2: (current)</i>
