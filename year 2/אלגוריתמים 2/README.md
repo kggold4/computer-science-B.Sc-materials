@@ -1,2 +1,2 @@
 # Algorithms 2 course materials
-* Find Course code in: https://github.com/kggold4/algorithms-2.git
+* Find Course code in: https://github.com/kggold4/algorithms.git
