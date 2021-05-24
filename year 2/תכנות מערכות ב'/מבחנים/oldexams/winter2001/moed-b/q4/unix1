@@ -1,0 +1,60 @@
+
+File:  average
+--------------
+
+
+
+
+#!/usr/local/bin/tcsh -f
+
+#Call:  average <name_of_file> [faculty1 faculty2 ...] 
+
+
+if ($#argv < 1) then
+        echo  "Usage:  $0 <name_of_file> [faculty1 faculty2 ...] "
+else
+        if ($#argv == 1) then
+            tail +3 $1  >! tempfile
+ 
+        else
+          if (-f tempfile) then
+                /bin/rm tempfile
+          endif
+
+           set  grade_list = ($argv[2-] )
+ 
+           foreach grade ($grade_list )
+                grep $grade $1 >>! tempfile
+           end
+endif
+ 
+set average = `cat tempfile | calc`
+echo $average
+
+
+
+
+file:  calc
+-----------
+
+
+
+#!/usr/local/bin/tcsh -f  
+ 
+
+set sum = 0
+set count = 0
+ 
+set line =  $< 
+set line = ( $line )
+ 
+while  ( $#line > 0)
+        @ sum = $sum + $line[4]
+        @ count ++
+        set line =  $<
+	set line = ( $line )
+end
+ 
+@ av = $sum / $count
+echo "average="  $av                                                                                                                            
+ 

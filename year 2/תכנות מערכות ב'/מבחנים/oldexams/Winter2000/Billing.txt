@@ -1,0 +1,71 @@
+
+#billing:  Given a phone number and a month, print the sum this person should pay
+#  for this month
+#
+#!/bin/csh
+#
+	if (-e d_$1/$2) then
+		cat  d_$1/$2 |calc 3
+	endif
+
+
+
+
+
+#
+# minutes:  calculate, for a given phone number, the month with the maximum number of minutes
+#
+#!/bin/csh
+#
+#
+set max=0
+set month = " "
+
+cd d_$1
+foreach mnth (*)
+	set minutes = `cat $mnth |../calc 2`
+	   if ( $max < $minutes) then
+		set month = $mnth
+		set max = $minutes
+	   endif
+end
+
+echo $month $max
+
+
+
+
+
+# max: Given a name of the subscriber and a month, print the line with the max number of minutes
+# at this month
+#
+#! /usr/bin/csh
+#
+set line = `cat list |grep -i $1`
+echo $line
+set month=$2
+echo $month
+set tel = $line[1]
+echo $tel
+if (-e d_$tel/$month) then
+   set str = `sort -n -k 2 d_$tel/$month |tail -1`
+	echo $str
+endif
+
+
+
+
+
+#calculate the sum of all elements in colomn fiven by $1
+#
+#! /usr/bin/csh -f
+# calc
+set sum = 0
+set line = ( $< )
+set line = ( $line )
+	while ($#line != 0)
+		@ sum = $sum + $line[$1]
+		set line = ( $< )
+		set line = ( $line )
+	end
+echo $sum

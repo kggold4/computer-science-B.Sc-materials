@@ -1,0 +1,210 @@
+Q2
+----
+
+
+א.	רשימה מקושרת עם הכנסה ממויינת (לא חובה) שכל צומת מכיל מספר רכישה (שלילי – רכישה, חיובי – מכירה) וגם מכיר המניה באותו יום. שמשניהם (בלבד, אין התיחסות לאחור) מחושבת בבכנסה מאותו יום. שינוי היסט מיום מסויים מעדכן את המחירים/הכנסות לכל הימים שאחריו. שינוי או יצירת קניה/מכירה מעדכן את הכנסת היום המתאים. בתום כל אחת משלושת הפעולות עוברים על כל הרשימה ומחשבים את ההכנסה הכללית על ידי סכימת הכנסות כל הימים.
+ב.	אם יש בן שמאלי מחזיר את המקסימלי בתת העץ הימני, אחרת עולה מעלה ומחזיר את הצומת שעולים אליו מתוך תת עץ ימני. 
+ג.	. Sell או Buy מוצאת את מיקום הצומת של היום המתאים
+אם לא קיים – מוצאת את היום הקודם, לוקחת משם את המחיר, מחשבת את הכנסת היום ומוסיפה אותה לשדה Income 
+אם קיים – מורידה מההכנסה את הכנסת היום החדשה, מעדכנת את מספר המניות להעברה, מחשבת הכנסת יום חדשה, מעדכנת את ההכנסה הכוללת.
+
+ד.	. יש צורך בהכנסת הצומת כדי שתהיה במבנה האינפורמציה מתי בדיוק התרחש ההיסט כדי לדעת מה המחיר התאים למניה בימים שאחרי. (למשל אם קיימים הימים 1,5 ומתבצע שינוי ביום 3, לא מספיק לעדכן רק את המחיר ב-5 כי פעולת רכישה ביום 4 שתבוא לאחר מכן תסתכל על המחיר ביום הקודם ל4, כלומר תשתמש במחיר של 1 וזו שגיאה)
+ 
+ה.	ChangePrice – אם לא קיים צומת מתאים, מכניסה אותו. בכל מקרה עוברת על כל הצמתים ומשנה בצמתים עם תאריך מאוחר מהתאריך הנתון את מחיר המניות לפי ההיסט, מורידה מההכנסה הכוללת את הכנסת היום הישנה, מחשבת את הכנסת היום החדשה, מוסיפה את הכנסת היום החדשה להכנסה הכולל. 
+
+
+
+Q3
+----
+
+
+
+
+
+#pragma once
+#include "stdafx.h"
+
+//book.h
+
+class Book 
+{
+public:
+
+	Book (int id = 0, const char* title=NULL, const char* author=NULL ): id(id), 
+		title(strdup(title)),author(strdup(author)) {}
+
+	Book (const Book& src) : id(src.id), 
+		title(strdup(src.title)),author(strdup(src.author)) {}
+
+	bool operator==( const Book & src )
+	{
+		return &src == this || 
+			( id == src.id && 
+			( title && src.title && !strcmp(title, src.title) ) && 
+			( author && src.author && !strcmp(author, src.author) ) );
+	}
+
+	Book& operator=( const Book & src )
+	{
+		if ( &src != this )
+		{ 
+			id = src.id;
+			delete[] title;
+			delete[] author; 
+			title = strdup( src.title ); 
+			author = strdup( src.author ); 
+		}
+		return *this;
+	}
+	virtual ~Book()
+	{
+		if ( title )  free( title );
+		if ( author ) free( author );
+	}
+
+	void setTitle(const char* newtitle ) { title = strdup( newtitle ); }
+		void setAuthor(const char* newAuthor ) { author = strdup( newAuthor ); }
+	void  setId ( int newId ) { id = newId; }
+
+	const char* getTitle(void) const { return title; }
+	int getId() const { return id; }
+
+	friend ostream&  operator <<  (ostream& out, const Book &book )
+	{
+		static char* left  = "[";
+		static char* right  = "]";
+		static char* sep  = ",";
+		static char* null  = "(null)";
+
+		out << left 
+			<< book.id 
+			<< sep 
+			<< ( book.title ? book.title : null ) 
+			<< sep 
+			<< ( book.author ? book.author : null ) 
+			<< right 
+			<< endl;
+
+		return out;
+	}
+
+protected: 
+	char* title;
+	char* author;
+	int   id;
+};
+
+
+----------------------------------------------------------------------------
+#pragma once
+#include "stdafx.h"
+
+// library.h
+
+
+template <class T>
+class Library
+{
+public:
+	Library(int size = -1) 
+	{
+		data =  new Vector<T>( size == -1 ? 100 : size );
+	}
+
+	virtual ~Library()
+	{
+		delete data;
+	}
+
+	void add( const T& element)throw (int)
+	{
+		int Id = element.getId();
+		if (Id > data->getSize() ) throw (Id);
+		(*data)[Id] = element; 
+	}
+
+	T& get(int i) const { return (*data)[i]; }
+	int size() {return data->size(); }
+
+	Library& operator=(const Library & lib)
+	{
+		if (this !=  &src)
+		{
+			*data = *lib.data;
+		}
+		return *this;
+	}
+
+	friend ostream& operator << (ostream&  out, const Library& lib)
+	{
+		for (int i=lib.getSize()-1; i >= 0; i-- )
+			out << (*lib.data)[i];
+		return out;
+	}
+
+
+private:
+	Vector<T>* data;
+};
+
+
+
+_________________________________________________________________________________
+
+
+// 3.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "library.h"
+#include "book.h"
+
+int _tmain(int argc, _TCHAR* argv[])
+{	
+	try
+	{
+		Book barray[10];
+		Book b1(25, "Harry Potter");
+		Book b2(35, "Murder she said", "Agatha Christy");
+		Book b3(26);
+		b3.setTitle( b2.getTitle() );
+		Book b4(25, "Harry Potter");
+		b4.setAuthor( "Rowling" );
+		Book b5( b1 );
+
+		if (b5==b1) 
+			b5.setId( b1.getId()+1 );
+
+		Library<Book> lib(100);
+		lib.add(b1);
+		lib.add(b2);
+		lib.add(b3);
+		lib.add(b4);
+		lib.add(b5);
+		cout << "The last book created: " << lib.get(26) << endl;
+	}
+	catch ( int n )
+	{
+		cerr << "Exception caught: n = " << n << endl;
+	}
+
+}
+
+-----------------------------------------------------------------------------
+
+// stdafx.h
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <tchar.h>
+#include <iostream.h>
+#include <string.h>
+
+#include "book.h"
+#include "vector.h"
+
+
+
+
+
+

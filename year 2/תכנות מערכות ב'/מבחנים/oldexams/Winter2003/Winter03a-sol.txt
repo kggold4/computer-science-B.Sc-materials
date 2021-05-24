@@ -1,0 +1,200 @@
+
+					מועד א – חורף 2002/2003   פתרון				
+
+Question 1
+
+typedef int (*CompFunction)(PData, PData);
+
+a. 
+QSCreat();
+PQS QSAddQueue(PQS pqs, char* qName, int priority);
+Result QSChangeQueuePriority(PQS pqs, char* qName, int newpriority);
+Result QSInsert(PQS pqs, char* qName, PQElement pqelement);
+PQElement QSRemoveHead(PQS pqs);
+int QSCount(PQS pqs);
+void QSDestroy(PQS pqs);
+
+b. 
+
+typedef struct Qnode
+{	
+	int priority;
+	PQueue pqueue;
+	char name[100];
+} Qnode;
+
+int QnodeKeyCompare(void* sq1, void* sq2)
+{
+	return strcmp((char*)sq1, (char*)sq2);
+}
+
+// key function for List
+void* QnodeKey(void* pq)
+{ 
+	return (Queue*)(pq)->name;
+}
+
+
+
+
+
+typedef struct tagQS
+{
+	PList qList;
+	int Count;
+} tagQS;
+
+c. 
+
+PQS QSCreat(){
+	PQS pqs;
+	pqs = (PQS)(malloc(sizeof(QS)));
+	ListCreat(pqs->qList, QnodeKeyCompare, QnodeCompare, QnodeKey);
+	return pqs;
+}
+
+Result QSInsert(PQS pqs, char* qName, PQElement pqelement){
+	QNode *pqnode = (QNode*)ListFind(pqs->qlist,qName);
+	if (pqnode == NULL)
+		return FAIL;
+	return QueueInsert(pqnode->pqueue, pqelement);
+}
+
+PQElement QSRemoveHead(PQS pqs){
+/*	QNode *pqnode = (QNode*)ListGetMin(pqs->qlist);  /*
+	QNode *pqmax == NULL;
+	ListResetIterator(pqs->qlist);
+	while( (pqnode = (QNode*)ListGetNext(pqs->qlist)) !=NULL){
+		if (QeueCount(pqnode->pqueue)>0)
+			if  ( (pqmax == NULL) || (pqmax->priority < pqnode->priority) )
+				pqmax = pqnode;
+	if (pqmax == NULL) 
+		return NULL;
+	return QueueRemoveHead(pqnode);
+}
+
+
+void QSDestroy(PQS pqs){
+	QNode * pqnode;
+	ListResetIterator(pqs->qlist);
+	while( (pqnode = (QNode*)ListGetNext(pqs->qlist)) !=NULL){
+		QueueDestroy(pqs->queue);
+		free(pqs);
+	}
+	ListDestroy(pqs->qlist);
+	free(pqs);
+	return;
+}
+
+	
+
+
+
+
+
+
+
+
+
+Question 2.
+
+א.	רשימה מקושרת אחת.
+ב.	רשימה של תורים
+ג.	מערך של תורים
+ד.	מערך של תורים שמשתמש בדוגמא ההיא שמקודדת רשימה מקושרת במערך וכך אפשר לדעת תמיד מי המקסימום.              
+ה.	עץ של תורים. 
+
+
+
+
+
+
+
+  Question 3. 
+
+א. 
+
+class container {
+public:
+ container (int s = 20);		//const. and default const.
+  ~container();			//probably we need destructor
+container& operator += (const int i);
+container& operator -= (const int i);
+friend bool operator !=(const container&, const container &));
+friend ostream& operator << (const container&, ostream& os);
+container& operator= (const container& C);
+int get_oldest () const;
+bool is_empty() const;
+bool element_of (int);  
+private:
+  …
+protected:
+  … 
+}
+ב.
+template <class T>
+class container {
+public:
+ container (int s = 20);		//const. and default const.
+  ~container();			//probably we need destructor
+container& operator += (const T&);
+container& operator -= (const T&);
+friend bool operator !=(const container&, const container &));
+container& operator= (const container& C);
+friend ostream& operator << (const container&, ostream& os);
+T get_oldest () const;
+bool is_empty() const;
+bool element_of (T);  
+
+private:
+  …
+protected:  …
+ }
+
+ג.
+
+void print(container c)  {
+int oldest;
+	while ( ! c.is_empty() )
+		{ 	oldest = c.get_oldest();
+			cout << oldest<<endl;
+		   	c -= oldest;
+		}
+}
+ 
+א
+ד.
+
+
+Add a memeber "Max" to the class, to save the maximum ever in the container.
+Override +=  so it will update this variable when enetring a new integer.
+
+
+
+
+
+
+4.
+
+
+>cat macro_change
+#! /bin/tcsh -f
+#
+cat $1 | change $2
+
+>cat change
+#! /bin/tcsh -f
+#
+set line = ( $< )
+set line = "$line"
+while ($#line != 0)
+        set label = `echo $line | cut -f2 -d:`
+        if ($label =~ "MACRO") then
+                set a = `echo $line | cut -f1 -d:`
+                set b = `echo $line | cut -f3 -d:`
+                echo $a $1 $b
+        else
+                echo $line
+        endif
+        set line =  ( $< )
+end

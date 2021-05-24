@@ -1,0 +1,30 @@
+#! /bin/csh
+#  admin dirname -kill str1 str2 str3....
+#  admin dirname -print str1 str2
+#  
+cd $1
+shift
+if ($1 =~ "-kill" ) then
+	shift
+	foreach string ($* )
+		foreach file (*)
+		   if (-f $file) then	
+		         if ($file =~ *${string}* ) /bin/rm $file
+	else if (-d $file) then
+		~/admin $file -kill $*
+		   endif
+		end
+	end
+	
+endif
+
+if ($1 == "-print" ) then
+	foreach file (*)
+		if (-f $file) then
+			if (-r $file) then
+			grep $2 $file | grep $3 
+		   endif
+		endif
+	end
+endif
+

@@ -1,0 +1,28 @@
+#!/bin/csh
+#
+#  The script should reside in the home directory, and the home dir should be included in the path.
+#  If the first argument is "-c" followed by a dir name, the script will be executed at this directory.
+#  Otherwise, it will excexute in the current directory.
+#  The script will do:  Go over all regular files. It will remove all the files that their 3'rd line begines with
+#   the 2 characters given as the papameter (that comes after "-c dirname" or as the only parameter if no "-c" option 
+#   is given)
+#
+set path = ($home $path)
+if ($1 == "-c") then
+	cd $2
+	shift
+	shift
+endif
+foreach file (*)
+	if (-f $file) then
+		set a = `cat $file | head -4| tail -1 | cut -c1,2`
+			if ( $a == $1)  /bin/rm  -l $file
+	else 
+		if (-d $file) then
+			del -c $file $1
+		endif
+	endif
+end
+
+
+
