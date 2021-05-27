@@ -20,13 +20,13 @@
 1. [Logics and Set theory](year%201/Logics%20and%20Set%20theory)
 
 ### <i>Year 2: (current)</i>
-1. [Automata theory 1](year%202/Automata%20theory%201)
-1. [Automata theory 2](year%202/Automata%20theory%202)
-1. [Linear algebra 2](year%202/Linear%20algebra%202)
 1. [Algorithms 1](year%202/Algorithms%201)
 1. [Algorithms 2](year%202/Algorithms%202)
+1. [Automata theory 1](year%202/Automata%20theory%201)
+1. [Automata theory 2](year%202/Automata%20theory%202)
 1. [Databases](year%202/Databases)
 1. [Networking and Computing](year%202/Networking%20and%20Computing)
+1. [Linear algebra 2](year%202/Linear%20algebra%202)
 1. [Object-Oriented Programming with Java and Python](year%202/Object-Oriented%20Programming)
 1. [Operating Systems](year%202/Operating%20Systems)
 1. [Statistics and probability for computer science 1](year%202/Statistics%20and%20probability%201)
