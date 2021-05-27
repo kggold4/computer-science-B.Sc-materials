@@ -8,32 +8,30 @@
 
 ### Degree Courses:
 ### <i>Year 1:</i>
-1. Linear Algebra 1
-2. Calculus 1
-3. Calculus 2
-4. Data visualization with Python
-5. Introduction to Data Science with Python
-6. Logics and Set theory
-7. Introduction to Java and Programming
-8. Data Structures with Java
-9. Discrete mathematics
-10. Algorithmic Number theory 
-
+1. [Algorithmic Number Theory](year%201/Algorithmic%20Number%20theory)
+1. [Calculus 1](year%201/Calculus%201)
+1. [Calculus 2](year%201/Calculus%202)
+1. [Data Structures with Java](year%201/Data%20Structures%20with%20Java)
+1. [Data Visualization with Python](year%201/Data%20visualization)
+1. [Discrete Mathematics](year%201/Discrete%20mathematics)
+1. [Introduction to Data Science with Python](year%201/Introduction%20to%20Data%20Science)
+1. [Introduction to Java and Programming](year%201/Introduction%20to%20Java%20and%20Programming)
+1. [Linear Algebra 1](year%201/Linear%20Algebra%201)
+1. [Logics and Set theory](year%201/Logics%20and%20Set%20theory)
 
 ### <i>Year 2: (current)</i>
-1. Automata theory 1
-2. Automata theory 2
-3. Linear algebra 2
-4. Algorithms 1 with Java
-5. Algorithms 2 with Java and Python
-6. Databases
-7. Networking and Computing
-8. Object-Oriented Programming with Java and Python
-9. Operating Systems
-10. Statistics and probability for computer science 1
-11. Systems Programing in C language
-12. Systems Programing in C++ language
-
+1. [Automata theory 1](year%202/Automata%20theory%201)
+1. [Automata theory 2](year%202/Automata%20theory%202)
+1. [Linear algebra 2](year%202/Linear%20algebra%202)
+1. [Algorithms 1](year%202/Algorithms%201)
+1. [Algorithms 2](year%202/Algorithms%202)
+1. [Databases](year%202/Databases)
+1. [Networking and Computing](year%202/Networking%20and%20Computing)
+1. [Object-Oriented Programming with Java and Python](year%202/Object-Oriented%20Programming)
+1. [Operating Systems](year%202/Operating%20Systems)
+1. [Statistics and probability for computer science 1](year%202/Statistics%20and%20probability%201)
+1. [Systems Programing in C language](year%202/Systems%20Programing%201)
+1. [Systems Programing in C++ language](year%202/Systems%20Programing%202)
 
 ### <i>Year 3:</i>
 1. Statistics and probability for computer science 2
