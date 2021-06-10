@@ -35,4 +35,5 @@
 
 ### <i>Year 3:</i>
 1. Statistics and probability for computer science 2
-2. Software engineering
+1. Software engineering
+1. Distributed systems
