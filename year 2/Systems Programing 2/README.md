@@ -5,3 +5,7 @@
 3. assignment 3: https://github.com/kggold4/sp2-ex3-number-with-units.git
 4. assignment 4: https://github.com/kggold4/sp2-ex4-pandemic.git
 5. assignment 5: https://github.com/kggold4/sp2-ex5-binary-tree.git
+
+
+### Links:
+* [105 STL Algorothms video](https://www.youtube.com/watch?v=bFSnXNIsK4A)
