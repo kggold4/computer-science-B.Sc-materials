@@ -1,0 +1,16 @@
+gcc -pthread -o pthread pthread_example.c
+
+gcc -o pipe pipe_example.c
+
+
+Run each process in a separate terminal like so:
+
+./external.out 100 1
+
+./external.out 22 2
+
+./external.out 50 3
+
+./external.out 40 4
+
+./central.out 60
