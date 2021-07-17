@@ -41,6 +41,83 @@ exit_region() {
 }
 ```
 
+### Binary Semaphores:
+
+```
+init(S) {
+	S = 1;
+}
+
+down(S) {
+	if(S == 0) block process;
+	S = 0;
+}
+
+up(S) {
+	S = 1;
+	if(thre are blocked process) wake one up;
+}
+```
+
+### Counting Semaphores:
+```
+init(S) {
+	S = N;
+}
+
+down(S) {
+	if(S == 0) block process;
+	S--;
+}
+
+up(S) {
+	S++;
+	if(thre are blocked process) wake one up;
+}
+```
+
+### Negative-Value Semaphores:
+```
+init(S) {
+	S = N;
+}
+
+down(S) {
+	S--;
+	if(S < 0) block process;
+}
+
+up(S) {
+	S++;
+	if(S <= 0) wake a process;
+}
+```
+
+### Creating Counting Semaphore using only Binary Semaphores Solution:
+* ```Sint``` - value
+* ```S1``` - a binary semaphore, initially = 1
+* ```S2``` - a binary semaphore, initially = min(1, value)
+```
+down(S) {
+	down(S2);
+	down(S1);
+	Sint--;
+	if(Sint > 0) {
+		up(S2);
+	}
+	up(S1);
+}
+
+up(S) {
+	down(S1);
+	Sint++;
+	if(Sint == 1) {
+		up(S2);
+	}
+	up(S1);
+}
+```
+
 ### Test and Set Algorithm:
 
 ```
