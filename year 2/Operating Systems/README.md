@@ -153,4 +153,15 @@ void producer(void) {
 		up(&full);
 	}
 }
+
+void comsumer(void) {
+	int item;
+	while(1) {
+		down(&full);
+		down(&useQ);
+		consume_item(&item);
+		up(&useQ);
+		up(&empty);
+	}
+}
 ```
