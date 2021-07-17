@@ -40,3 +40,19 @@ exit_region() {
 	interested[1] = FALSE;
 }
 ```
+
+### Test and Set Algorithm:
+
+```
+test_and_set(value&) { // by reference
+	int temp = value;
+	value& = 1; 
+	return temp;
+}
+
+for each thread do {
+	await(test_and_set(value) = 0);
+	--CS--
+	value = 0
+}
+```
