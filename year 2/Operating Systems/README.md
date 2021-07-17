@@ -56,3 +56,24 @@ for each thread do {
 	value = 0
 }
 ```
+
+### Producer Consumer Problem:
+
+```
+#define N 100
+Mutex UseQ = 1
+semaphore empty = N;
+semaphore fill = 0;
+
+void producer(void) {
+	int item;
+	while(1) {
+		produce_item(&item); // generate something
+		down(&empty);
+		down(&useQ); // enter CS
+		enter_item(&item); // --CS--
+		up(&useQ); // exit CS
+		up(&full);
+	}
+}
+```
