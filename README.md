@@ -8,6 +8,7 @@
 
 ### Degree Courses:
 ### <i>Year 1:</i>
+
 1. [Algorithmic Number Theory](year%201/Algorithmic%20Number%20theory)
 1. [Calculus 1](year%201/Calculus%201)
 1. [Calculus 2](year%201/Calculus%202)
@@ -20,6 +21,7 @@
 1. [Logics and Set theory](year%201/Logics%20and%20Set%20theory)
 
 ### <i>Year 2: (current)</i>
+
 1. [Algorithms 1](year%202/Algorithms%201)
 1. [Algorithms 2](year%202/Algorithms%202)
 1. [Automata theory 1](year%202/Automata%20theory%201)
@@ -34,6 +36,7 @@
 1. [Systems Programing in C++ language](year%202/Systems%20Programing%202)
 
 ### <i>Year 3:</i>
+
 1. Statistics and probability for computer science 2
-1. Software engineering
-1. Distributed systems
+1. Software Engineering
+1. Distributed Systems
