@@ -20,7 +20,7 @@
 1. [Linear Algebra 1](year%201/Linear%20Algebra%201)
 1. [Logics and Set theory](year%201/Logics%20and%20Set%20theory)
 
-### <i>Year 2: (current)</i>
+### <i>Year 2:</i>
 
 1. [Algorithms 1](year%202/Algorithms%201)
 1. [Algorithms 2](year%202/Algorithms%202)
@@ -35,7 +35,7 @@
 1. [Systems Programing in C language](year%202/Systems%20Programing%201)
 1. [Systems Programing in C++ language](year%202/Systems%20Programing%202)
 
-### <i>Year 3:</i>
+### <i>Year 3: (current)</i>
 
 1. Statistics and probability for computer science 2
 1. Software Engineering
