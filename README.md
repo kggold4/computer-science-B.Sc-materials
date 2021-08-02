@@ -26,6 +26,7 @@
 1. [Algorithms 2](year%202/Algorithms%202)
 1. [Automata theory 1](year%202/Automata%20theory%201)
 1. [Automata theory 2](year%202/Automata%20theory%202)
+1. Computer Vision and Image Processing
 1. [Databases](year%202/Databases)
 1. [Networking and Computing](year%202/Networking%20and%20Computing)
 1. [Linear algebra 2](year%202/Linear%20algebra%202)
@@ -37,6 +38,8 @@
 
 ### <i>Year 3: (current)</i>
 
+1. Computability
+1. Distributed Systems
 1. Statistics and probability for computer science 2
 1. Software Engineering
-1. Distributed Systems
+
