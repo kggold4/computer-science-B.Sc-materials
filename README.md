@@ -28,6 +28,7 @@
 1. [Automata theory 2](year%202/Automata%20theory%202)
 1. Computer Vision and Image Processing
 1. [Databases](year%202/Databases)
+1. Introduction to Neural Computation
 1. [Networking and Computing](year%202/Networking%20and%20Computing)
 1. [Linear algebra 2](year%202/Linear%20algebra%202)
 1. [Object-Oriented Programming with Java and Python](year%202/Object-Oriented%20Programming)
@@ -38,8 +39,10 @@
 
 ### <i>Year 3: (current)</i>
 
+1. Advanced Programming
 1. Computability
 1. Distributed Systems
+1. Programming Languages
 1. Statistics and probability for computer science 2
 1. Software Engineering
 
