@@ -42,6 +42,7 @@
 1. [Advanced Programming in C++](year%203/Advanced%20Programming)
 1. [Computability](year%203/Computability)
 1. [Deep learning and Natural Language Processing](year%203/Deep%20learning%20and%20Natural%20Language%20Processing)
+1. [General Computer Science Seminar](year%203/General%20Computer%20Science%20Seminar)
 1. [Introduction to Neural Computation](year%203/Introduction%20to%20Neural%20Computation)
 1. [Machine Learning](year%203/Machine%20Learning)
 1. [Programming Languages](year%203/Programming%20Languages)
