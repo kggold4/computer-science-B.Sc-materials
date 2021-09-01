@@ -1,5 +1,7 @@
 package xml;
 
+import common.Address;
+import common.Student;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -14,26 +16,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-class Student {
-    public String firstName;
-    public String lastName;
-    public int id;
-    public int age;
-    public Address address;
-    public String toString() {
-        return "ID: " + id + "\nName: " + firstName + " " + lastName + "\nAge: " + age + "\nAddress: " + address + "\n";
-    }
-}
-
-class Address {
-    public String street;
-    public String city;
-    public String zip;
-    public String toString() {
-        return street + " " + city + " " + zip;
-    }
-}
-
 public class XMLParse {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
 
@@ -41,7 +23,7 @@ public class XMLParse {
         List<Student> studentList = new ArrayList<>();
 
         // get xml file
-        File inputFile = new File("src/xml/student.xml");
+        File inputFile = new File("src/xml/students.xml");
 
         // create factory
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -110,5 +92,9 @@ public class XMLParse {
         for(Student st : studentList) {
             System.out.println(st);
         }
+
+        System.out.println(studentList.get(0).lastName);
+        System.out.println(studentList.get(1).address.zip);
+        System.out.println(studentList.get(2).id);
     }
 }

@@ -1,0 +1,24 @@
+{
+  "University": {
+    "Student": [
+      {
+        "FirstName": "Chaya",
+        "LastName": "Glass",
+        "Address": {
+          "Street": "Hatamr 5",
+          "City": "Ariel",
+          "Zip": "40792"
+        },
+        "age": 21
+      },
+      {
+        "FirstName": "Tom",
+        "LastName": "Glow",
+        "Address": {
+          "Street": "Mishmar 5",
+          "City": "Ariel"
+        }
+      }
+    ]
+  }
+}

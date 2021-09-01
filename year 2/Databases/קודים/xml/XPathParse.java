@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class XPathParse {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
-        File inputFile = new File("src/xml/student.xml");
+        File inputFile = new File("src/xml/students.xml");
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document xmlDoc = builder.parse(inputFile);
