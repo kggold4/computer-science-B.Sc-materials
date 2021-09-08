@@ -1,6 +1,7 @@
 package common;
 
 public class Student {
+    public boolean reqAccessibility;
     public String firstName;
     public String lastName;
     public int id;

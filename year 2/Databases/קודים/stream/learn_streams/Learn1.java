@@ -9,5 +9,4 @@ public class Learn1 {
         int sum = Arrays.stream(a).sum();
         System.out.println("sum is: " + sum);
     }
-
 }
