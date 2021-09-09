@@ -1,4 +1,4 @@
-package stream.learn_streams;
+package streams.learn_streams;
 
 public class Learn3 {
 

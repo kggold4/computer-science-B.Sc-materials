@@ -1,4 +1,4 @@
-package stream.learn_streams;
+package streams.learn_streams;
 
 import java.util.Arrays;
 import java.util.List;
