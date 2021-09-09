@@ -25,7 +25,7 @@
 1. [Algorithms 1](year%202/Algorithms%201)
 1. [Algorithms 2](year%202/Algorithms%202)
 1. [Algorithms in Artificial Intelligence](year%202/Algorithms%20in%20Artificial%20Intelligence)   
-1. [Automata Theory 1](year%202/Automata%20Theory%201)
+1. [Automata Theory 1](year%202/Automata%20theory%201)
 1. [Automata Theory 2](year%202/Automata%20Theory%202)
 1. [Computer Vision and Image Processing](year%202/Computer%20Vision%20and%20Image%20Processing)
 1. [Databases](year%202/Databases)
