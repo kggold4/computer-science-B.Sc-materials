@@ -1,4 +1,4 @@
-# Databases course materials
+# Databases Course Study Materials
 
 ### Course Topics:
 
@@ -19,6 +19,7 @@
 	1. SPARQL
 1. Java Streams
 1. Big Data
+	1. Numpy and Pandas
 	1. Spark
 1. NaiveBayes
 1. Linear and Logistic Regression
