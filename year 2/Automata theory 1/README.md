@@ -1,1 +1,1 @@
-# Automata Theory Course Materials
+# Automata Theory 1 Course Materials
