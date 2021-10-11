@@ -1,0 +1,5 @@
+Lectures from course in DB:
+Linear regression 1: https://youtu.be/90CKgd2rXbQ
+Linear regression 2: https://youtu.be/IkrldX0E2k8
+Linear regression 3: https://youtu.be/SiRBxWRjT9Q
+Logistic regression: https://youtu.be/f_QbZCifDI0
