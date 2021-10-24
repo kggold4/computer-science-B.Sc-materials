@@ -1,1 +1,1 @@
-# Computability course materials
+# Computability Theory Course Materials
