@@ -1,1 +1,1 @@
-# Data Structures course materials
+# Data Structures Course Materials

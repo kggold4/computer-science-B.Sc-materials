@@ -1,1 +1,1 @@
-# Discrete mathematics course materials
+# Discrete Nathematics Course Materials
