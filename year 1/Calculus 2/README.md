@@ -1,1 +1,1 @@
-# Calculus 2 course materials
+# Calculus 2 Course Materials
