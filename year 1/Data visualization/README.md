@@ -1,4 +1,4 @@
-# Data visualization with Python course materials
+# Data Visualization Course Materials
 
 * find the final project of the course in: https://github.com/kggold4/final-project-data-visualization.git
 
