@@ -1,1 +1,1 @@
-# Linear algebra 1 course materials
+# Linear Algebra 1 Course Materials
