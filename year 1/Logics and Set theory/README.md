@@ -1,1 +1,1 @@
-# Logics and Set theory course materials
+# Logics and Set Theory Course Materials
