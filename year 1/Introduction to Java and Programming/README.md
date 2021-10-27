@@ -1,1 +1,1 @@
-# Introduction to Java course materials
+# Introduction to Java and Programming Course Materials
