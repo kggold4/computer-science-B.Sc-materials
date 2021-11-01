@@ -1,1 +1,1 @@
-# Deep learning and Natural Language Processing Course Materials
+# Deep Learning and Natural Language Processing Course Materials
