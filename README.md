@@ -46,5 +46,5 @@
 1. [Introduction to Neural Computation](year%203/Introduction%20to%20Neural%20Computation)
 1. [Machine Learning](year%203/Machine%20Learning)
 1. [Programming Languages](year%203/Programming%20Languages)
-1. [Software Engineering](year%203/Software%20Engineering) (Software Structure)
+1. [Software Engineering](year%203/Software%20Engineering)
 1. [Statistics and Probability for Computer Science 2](year%203/Statistics%20and%20Probability%202)
