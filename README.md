@@ -1,4 +1,4 @@
-# Computer Science and Mathematics, Specialization in Data Science and Artificial Intelligence B.Sc Degree Courses Materials
+# Computer Science and Mathematics, Specialization in Data Science and Artificial Intelligence B.Sc Study Materials
 ### <i>By Kfir Goldfarb</i>
 <div align="center" style="text-align:center">
 	<a href="https://www.ariel.ac.il/wp/">
