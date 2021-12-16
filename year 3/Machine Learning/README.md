@@ -1,1 +1,1 @@
-# Machine Learning course materials
+# Machine Learning Course Materials
