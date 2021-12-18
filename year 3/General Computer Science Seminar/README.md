@@ -1,1 +1,1 @@
-# General Computer Science Seminar course materials
+# General Computer Science Seminar Course Materials
