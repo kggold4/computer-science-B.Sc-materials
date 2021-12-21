@@ -13,12 +13,12 @@
 1. [Calculus 1](year%201/Calculus%201)
 1. [Calculus 2](year%201/Calculus%202)
 1. [Data Structures](year%201/Data%20Structures)
-1. [Data Visualization](year%201/Data%20Visualization)
-1. [Discrete Mathematics](year%201/Discrete%20Mathematics)
+1. [Data Visualization](https://github.com/kggold4/computer-science-B.Sc-materials/tree/main/year%201/Data%20visualization)
+1. [Discrete Mathematics](https://github.com/kggold4/computer-science-B.Sc-materials/tree/main/year%201/Discrete%20mathematics)
 1. [Introduction to Data Science](year%201/Introduction%20to%20Data%20Science)
 1. [Introduction to Java and Programming](year%201/Introduction%20to%20Java%20and%20Programming)
 1. [Linear Algebra 1](year%201/Linear%20Algebra%201)
-1. [Logics and Set Theory](year%201/Logics%20and%20Set%20Theory)
+1. [Logics and Set Theory](https://github.com/kggold4/computer-science-B.Sc-materials/tree/main/year%201/Logics%20and%20Set%20theory)
 
 ### <i>Year 2:</i>
 

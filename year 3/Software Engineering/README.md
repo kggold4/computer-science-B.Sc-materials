@@ -1,3 +1,3 @@
 # Software Engineering Course Materials
 
-* See final project of this course at: https://github.com/LielBerniker/volunteer_application.git
+* See the [Final Project](https://github.com/LielBerniker/volentake.git) for this course.
