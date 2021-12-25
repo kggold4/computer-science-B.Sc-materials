@@ -6,7 +6,7 @@
 	</a>
 </div>
 
-### Degree Courses:
+## Courses:
 ### <i>Year 1:</i>
 
 1. [Algorithmic Number Theory](year%201/Algorithmic%20Number%20theory)
@@ -48,3 +48,9 @@
 1. [Programming Languages](year%203/Programming%20Languages)
 1. [Software Engineering](year%203/Software%20Engineering)
 1. [Probability for Computer Science 2](year%203/Probability%20for%20CS%202)
+
+## My Summaries:
+1. [Introduction to Machine Learning](year%201/Introduction%20to%20Data%20Science/סיכומים/סיכום%20מבוא%20ללמידת%20מכונה%20כפיר%20גולדפרב.pdf)
+2. [Algorithms](https://github.com/kggold4/algorithms)
+3. [Design Patterns](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%202/Object-Oriented%20Programming/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/%D7%A1%D7%99%D7%9B%D7%95%D7%9D%20%D7%AA%D7%91%D7%A0%D7%99%D7%95%D7%AA%20%D7%A2%D7%99%D7%A6%D7%95%D7%91%20%D7%9B%D7%A4%D7%99%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%D7%A4%D7%A8%D7%91.pdf)
+4. [Operating Systems]()
