@@ -15,3 +15,8 @@
 11. [קישור](https://ariel-ac-il.zoom.us/rec/play/QAvlBJ6KlmVsy_EDo0X4wRpiNnhelZy7PIEeBfb_zJt81_CMP8DFxGxHN6rsBfspkSpmuka4spbw0KF5.Fu2rkKjCge0ed8uK)
 12. [קישור](https://ariel-ac-il.zoom.us/rec/play/96tFg80B5j3AIkmWqRxcsjJWOm29P0zpKs0N_sGwVt-KrlIZxSRtIGlNod7s3HuDCMSIYDLgapOXC_cQ.hvAWmbWB_KkKWyD7)
 13. [קישור](https://ariel-ac-il.zoom.us/rec/play/HTrIT1Bsc_Nsc9MV5jW8h_EAj0IhFeMbfGQ1vq4lDK1ymYkJIc6l__1VVh3-LtmocaO97RHM1NCzMpWi.4quaHvZUjM3RWqK0)
+
+
+## מרתונים גיל לוי:
+
+*. [קישור](https://youtube.com/playlist?list=PLpGr-a0hg3ABvY2PSk2-tga-l8EhChVa5)
