@@ -1,5 +1,9 @@
 # Linear algebra 2 course materials
 
+## הרצאות יונה:
+
+* [קישור](https://www.youtube.com/playlist?list=PLa-VqSM2Ew18TZ2XdjA_5GTLB-ZsUWJeN)
+
 ## תרגולים אורית:
 
 1. [קישור](https://ariel-ac-il.zoom.us/rec/play/7B0GIawxfrT5mR3FiRCWDj3ERoYxwXehAx7mUVGgRCGMjLG1QecD80YmrWsVHBuq3K0XDNyuoSUpXlfB.rgfqfYihBJ2z4djZ)
@@ -19,4 +23,4 @@
 
 ## מרתונים גיל לוי:
 
-*. [קישור](https://youtube.com/playlist?list=PLpGr-a0hg3ABvY2PSk2-tga-l8EhChVa5)
+* [קישור](https://youtube.com/playlist?list=PLpGr-a0hg3ABvY2PSk2-tga-l8EhChVa5)
