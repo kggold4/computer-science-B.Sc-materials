@@ -33,7 +33,7 @@
 9. [Linear Algebra 2](year%202/Linear%20algebra%202)
 10. [Object-Oriented Programming](year%202/Object-Oriented%20Programming)
 11. [Operating Systems](year%202/Operating%20Systems)
-12. [Probability for Computer Science 1](year%202/Probability%20for%20CS%201)
+12. [Probability for Computer Science 1](year%202/Probability%20for%20Computer%20Science%201)
 13. [Programming in C](year%202/Systems%20Programming%201)
 14. [Programming in C++](year%202/Systems%20Programming%202)
 
@@ -47,7 +47,7 @@
 6. [Machine Learning](year%203/Machine%20Learning)
 7. [Programming Languages](year%203/Programming%20Languages)
 8. [Software Engineering](year%203/Software%20Engineering)
-9. [Probability for Computer Science 2](year%203/Probability%20for%20CS%202)
+9. [Probability for Computer Science 2](year%203/Probability%20for%20Computer%20Science%202)
 
 ## My Summaries:
 1. [Calculus 1](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%201/Calculus%201/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/%D7%A1%D7%99%D7%9B%D7%95%D7%9D%20%D7%90%D7%99%D7%A0%D7%A4%D7%99%20%D7%9B%D7%A4%D7%99%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%D7%A4%D7%A8%D7%91.pdf)
