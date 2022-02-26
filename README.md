@@ -45,9 +45,11 @@
 4. [General Computer Science Seminar](year%203/General%20Computer%20Science%20Seminar)
 5. [Introduction to Neural Computation](year%203/Introduction%20to%20Neural%20Computation)
 6. [Machine Learning](year%203/Machine%20Learning)
-7. [Programming Languages](year%203/Programming%20Languages)
-8. [Software Engineering](year%203/Software%20Engineering)
-9. [Probability for Computer Science 2](year%203/Probability%20for%20Computer%20Science%202)
+7. [Probability for Computer Science 2](year%203/Probability%20for%20Computer%20Science%202)
+8. [Programming Languages](year%203/Programming%20Languages)
+9. [Programming research algorithms](year%203/Programming%20Research%20Algorithms)
+10. [Software Engineering](year%203/Software%20Engineering)
+
 
 ## My Summaries:
 1. [Calculus 1](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%201/Calculus%201/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/%D7%A1%D7%99%D7%9B%D7%95%D7%9D%20%D7%90%D7%99%D7%A0%D7%A4%D7%99%20%D7%9B%D7%A4%D7%99%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%D7%A4%D7%A8%D7%91.pdf)
