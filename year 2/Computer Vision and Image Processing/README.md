@@ -1,1 +1,0 @@
-# Computer Vision and Image Processing Course Materials
