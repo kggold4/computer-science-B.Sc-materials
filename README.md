@@ -39,7 +39,7 @@
 
 ### <i>Year 3: (current)</i>
 
-1. [Advanced Programming in C++](year%203/Advanced%20Programming)
+1. [Advanced Programming](year%203/Advanced%20Programming)
 2. [Computability](year%203/Computability)
 3. [Computer Vision and Image Processing](year%203/Computer%20Vision%20and%20Image%20Processing)
 4. [Deep learning and Natural Language Processing](https://github.com/kggold4/computer-science-B.Sc-materials/tree/main/year%203/Deep%20learning%20and%20Natural%20Language%20Processing)
@@ -47,7 +47,7 @@
 6. [Machine Learning](year%203/Machine%20Learning)
 7. [Probability for Computer Science 2](year%203/Probability%20for%20Computer%20Science%202)
 8. [Programming Languages](year%203/Programming%20Languages)
-9. [Programming research algorithms](year%203/Programming%20Research%20Algorithms)
+9. [Programming Research Algorithms](year%203/Programming%20Research%20Algorithms)
 10. [Software Engineering](year%203/Software%20Engineering)
 
 
