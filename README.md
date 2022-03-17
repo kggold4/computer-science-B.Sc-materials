@@ -6,7 +6,7 @@
 	</a>
 </div>
 
-## Courses:
+## Courses Index:
 ### <i>Year 1:</i>
 
 1. [Algorithmic Number Theory](year%201/Algorithmic%20Number%20theory)
