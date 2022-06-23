@@ -34,8 +34,8 @@
 12. [Object-Oriented Programming](year%202/Object-Oriented%20Programming)
 13. [Operating Systems](year%202/Operating%20Systems)
 14. [Probability for Computer Science 1](year%202/Probability%20for%20Computer%20Science%201)
-15. [Programming in C](year%202/Systems%20Programming%201)
-16. [Programming in C++](year%202/Systems%20Programming%202)
+15. [Systems Programming 1 (C)](year%202/Systems%20Programming%201)
+16. [Systems Programming 2 (C++)](year%202/Systems%20Programming%202)
 
 ### <i>Year 3: (current)</i>
 
