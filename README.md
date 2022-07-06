@@ -1,12 +1,12 @@
 # Computer Science and Mathematics, Specialization in Data Science and Artificial Intelligence B.Sc Study Materials
-### <i>By Kfir Goldfarb</i>
 <div align="center" style="text-align:center">
 	<a href="https://www.ariel.ac.il/wp/">
 		<img src="https://github.com/kggold4/computer-science-b.a-materials/blob/main/images/Ariel_U_logo2.jpg" height="auto" width="500px">
 	</a>
 </div>
 
-## Courses Index:
+## Courses:
+
 ### <i>Year 1:</i>
 
 1. [Algorithmic Number Theory](year%201/Algorithmic%20Number%20theory)
@@ -52,11 +52,12 @@
 
 
 ## My Summaries:
-1. [Calculus 1](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%201/Calculus%201/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/%D7%A1%D7%99%D7%9B%D7%95%D7%9D%20%D7%90%D7%99%D7%A0%D7%A4%D7%99%20%D7%9B%D7%A4%D7%99%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%D7%A4%D7%A8%D7%91.pdf)
-2. [Introduction to Machine Learning](year%201/Introduction%20to%20Data%20Science/סיכומים/סיכום%20מבוא%20ללמידת%20מכונה%20כפיר%20גולדפרב.pdf)
-3. [Algorithms](https://github.com/kggold4/algorithms)
-4. [Design Patterns](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%202/Object-Oriented%20Programming/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/%D7%A1%D7%99%D7%9B%D7%95%D7%9D%20%D7%AA%D7%91%D7%A0%D7%99%D7%95%D7%AA%20%D7%A2%D7%99%D7%A6%D7%95%D7%91%20%D7%9B%D7%A4%D7%99%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%D7%A4%D7%A8%D7%91.pdf)
-5. [Operating Systems](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%202/Operating%20Systems/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/%D7%A1%D7%99%D7%9B%D7%95%D7%9D%20%D7%94%D7%A8%D7%A6%D7%90%D7%95%D7%AA%20%D7%9B%D7%A4%D7%99%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%D7%A4%D7%A8%D7%91.pdf)
-6. [Probability for Computer Science 2](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%203/Probability%20for%20Computer%20Science%202/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/%D7%A1%D7%99%D7%9B%D7%95%D7%9D%20%D7%9E%D7%A9%D7%A4%D7%98%D7%99%D7%9D%20%D7%97%D7%A9%D7%95%D7%91%D7%99%D7%9D%20%D7%91%D7%94%D7%A1%D7%AA%D7%91%D7%A8%D7%95%D7%AA%202.pdf)
-7. [Advanced Programming](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%203/Advanced%20Programming/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/advanced-programming-summary.pdf)
-8. [Image Processing & Computer Vision](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%203/Computer%20Vision%20and%20Image%20Processing/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/image-processing%26computer-vision-summary.pdf)
+
+1. [Introduction to Data Science](year%201/Introduction%20to%20Data%20Science/סיכומים/סיכום%20מבוא%20ללמידת%20מכונה%20כפיר%20גולדפרב.pdf)
+2. [Calculus 1](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%201/Calculus%201/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/%D7%A1%D7%99%D7%9B%D7%95%D7%9D%20%D7%90%D7%99%D7%A0%D7%A4%D7%99%20%D7%9B%D7%A4%D7%99%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%D7%A4%D7%A8%D7%91.pdf)
+3. [Probability for Computer Science 2](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%203/Probability%20for%20Computer%20Science%202/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/%D7%A1%D7%99%D7%9B%D7%95%D7%9D%20%D7%9E%D7%A9%D7%A4%D7%98%D7%99%D7%9D%20%D7%97%D7%A9%D7%95%D7%91%D7%99%D7%9D%20%D7%91%D7%94%D7%A1%D7%AA%D7%91%D7%A8%D7%95%D7%AA%202.pdf)
+4. [Introduction to Neural Computation](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%202/Introduction%20to%20Neural%20Computation/README.md)
+5. [Algorithms](https://github.com/kggold4/algorithms)
+6. [Design Patterns](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%202/Object-Oriented%20Programming/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/%D7%A1%D7%99%D7%9B%D7%95%D7%9D%20%D7%AA%D7%91%D7%A0%D7%99%D7%95%D7%AA%20%D7%A2%D7%99%D7%A6%D7%95%D7%91%20%D7%9B%D7%A4%D7%99%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%D7%A4%D7%A8%D7%91.pdf)
+7. [Operating Systems](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%202/Operating%20Systems/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/%D7%A1%D7%99%D7%9B%D7%95%D7%9D%20%D7%94%D7%A8%D7%A6%D7%90%D7%95%D7%AA%20%D7%9B%D7%A4%D7%99%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%D7%A4%D7%A8%D7%91.pdf)
+8. [Advanced Programming](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%203/Advanced%20Programming/%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D/advanced-programming-summary.pdf)

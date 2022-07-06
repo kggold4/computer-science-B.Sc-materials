@@ -194,7 +194,10 @@ layer Y is n and for X is m.
 
 **Introduction**:
 Max net is a neural network when each neuron is connected to others with weight of -ε when 0 < ε < 1/n when m is the
-number of neurons, In addition each neuron is connected to itself with weight of 1
+number of neurons, In addition each neuron is connected to itself with weight of 1.
+
+**Purpose**:
+The network purpose is to find the biggest vector
 
 **Parameters**:
 
@@ -230,7 +233,7 @@ different bits in the two vectors, as the bits more big the distance between the
 **Parameters**:
 
 * input vector x = (x_1, ..., x_n)
-* bias b
+* bias b = n/2
 
 ![img.png](markdown_images/img_4.png)
 
@@ -261,6 +264,8 @@ original data.
 
 * learning rate 0 < α < 1
 * i iterations
+* number of neuron n
+* the topology between neurons
 
 ![img.png](markdown_images/img_9.png)
 
@@ -276,20 +281,21 @@ original data.
 6. when we stop we choose the next example in randomal way
 ```
 
-### <i>Kohonen net:</i>
+### <i>Counter Propagation net:</i>
 
 **Introduction**:
 This is multi layers network that based on a combination as input and clustering as output. this network can be used to
 data compression, revaluation functions and affiliation patterns (associations). the hidden layer of this network is a
 Kohonen network.
 
+
 ![img.png](markdown_images/img_10.png)
 
 
 
-> Rules:
+> Rules & Concepts:
 
-### <i>Hebb rule</i>
+### <i>Hebb rule</i>:
 
 When two neurons that are connected to each other operations together, we want that their connection strength will be
 stronger:
@@ -297,6 +303,12 @@ stronger:
 ![img.png](markdown_images/eq_3.png)
 
 where p is the number of neurons in the network and -x_i^k is the k output of neuron i.
+
+### <i>Momentum</i>:
+
+When we update the weights by the current gradient and previous data, this is when we get data that is extremely bigger or lower than all other data we give it less weight.
+
+```W_jk(t + 1) = W_jk(t) + α * δ_k * Z_j + μ[ W_jk(t) - W_jk(t - 1) ]```
 
 ### <i>Xor implementation</i>:
 
@@ -307,3 +319,13 @@ converge and to run an infinite loop.
 wrong answer.
 
 **BackPropagation** - will work with the assuming that every logic function can be implemented by neural network.
+
+### <i>Types of networks</i>:
+
+**Association** - Hopfiled, Bam
+
+**Clustering** - Hamming, Kohonen
+
+**Detect Patterns** - Feed-Forward, perceptron, adaline
+
+**Self Organized** - MaxNet
