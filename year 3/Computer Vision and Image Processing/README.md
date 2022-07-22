@@ -7,11 +7,11 @@
 
 > Lecutres:
 
-https://ariel-ac-il.zoom.us/rec/share/3TltFCFcBXWi4QzKiZ2F-7jh4Qy-aru4uz-3przCEP06dE64Otf8sQaqcqcfnqj_.FyjMIWVeDAecxIeo?startTime=1646050276000
+[x] https://ariel-ac-il.zoom.us/rec/share/3TltFCFcBXWi4QzKiZ2F-7jh4Qy-aru4uz-3przCEP06dE64Otf8sQaqcqcfnqj_.FyjMIWVeDAecxIeo?startTime=1646050276000
 
-https://ariel-ac-il.zoom.us/rec/share/_4C3AyEr2YlSQrTc6GjMorIVDEom104hyyOuUBpul8tk0fpw53zYAaB5noZdZjXD.xhTk8ewv2sEmPeq5?startTime=1646056854000
+[x] https://ariel-ac-il.zoom.us/rec/share/_4C3AyEr2YlSQrTc6GjMorIVDEom104hyyOuUBpul8tk0fpw53zYAaB5noZdZjXD.xhTk8ewv2sEmPeq5?startTime=1646056854000
 
-https://ariel-ac-il.zoom.us/rec/share/qMwqZnCMeEJtYZ04GQQcY4zXPEiGpoPpaTmo8Bhv6nYrJgZarBlVZfB8aBsMp-cq.G-uzk2JSsY8W32lE?startTime=1646831393000
+[20:00] https://ariel-ac-il.zoom.us/rec/share/qMwqZnCMeEJtYZ04GQQcY4zXPEiGpoPpaTmo8Bhv6nYrJgZarBlVZfB8aBsMp-cq.G-uzk2JSsY8W32lE?startTime=1646831393000
 
 https://ariel-ac-il.zoom.us/rec/share/1k8geFkp6YYLgJ1H4OJQpYLRtRPqj-kZUGhvSMEsnADCqIZzMPRgAR41OGf-lgqO.wzGfBfapyF-lCUuP?startTime=1646837783000
 
