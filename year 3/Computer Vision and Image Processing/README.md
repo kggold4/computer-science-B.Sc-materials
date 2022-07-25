@@ -6,26 +6,26 @@
 3. [Ex3](https://github.com/kggold4/image-processing-ex3)
 
 > Lecutres:
-
+  
 1. [x] https://ariel-ac-il.zoom.us/rec/share/3TltFCFcBXWi4QzKiZ2F-7jh4Qy-aru4uz-3przCEP06dE64Otf8sQaqcqcfnqj_.FyjMIWVeDAecxIeo?startTime=1646050276000
 
 2. [x] https://ariel-ac-il.zoom.us/rec/share/_4C3AyEr2YlSQrTc6GjMorIVDEom104hyyOuUBpul8tk0fpw53zYAaB5noZdZjXD.xhTk8ewv2sEmPeq5?startTime=1646056854000
 
 3. [x] https://ariel-ac-il.zoom.us/rec/share/qMwqZnCMeEJtYZ04GQQcY4zXPEiGpoPpaTmo8Bhv6nYrJgZarBlVZfB8aBsMp-cq.G-uzk2JSsY8W32lE?startTime=1646831393000
 
-4. https://ariel-ac-il.zoom.us/rec/share/1k8geFkp6YYLgJ1H4OJQpYLRtRPqj-kZUGhvSMEsnADCqIZzMPRgAR41OGf-lgqO.wzGfBfapyF-lCUuP?startTime=1646837783000
+4. [x] https://ariel-ac-il.zoom.us/rec/share/1k8geFkp6YYLgJ1H4OJQpYLRtRPqj-kZUGhvSMEsnADCqIZzMPRgAR41OGf-lgqO.wzGfBfapyF-lCUuP?startTime=1646837783000
 
-5. https://ariel-ac-il.zoom.us/rec/share/VlRbiq3G73sVWS5XFP8rFd2yHbT64xzDmN3JNaBOqWuQzDilfeoAmjqnPGp1IEbf.tNbd-7l1REeOSj1s
+5. [x] https://ariel-ac-il.zoom.us/rec/share/VlRbiq3G73sVWS5XFP8rFd2yHbT64xzDmN3JNaBOqWuQzDilfeoAmjqnPGp1IEbf.tNbd-7l1REeOSj1s
 
-6. https://ariel-ac-il.zoom.us/rec/share/tsFYZBMTowmA_fIiRJdUd8qC5UQ7nKSuDF0y2m67ydrbaUqu8eKMSDKZMBZf0yBh.UOtH-e8tGuJe_TmX?startTime=1647864395000
+6. [x] https://ariel-ac-il.zoom.us/rec/share/tsFYZBMTowmA_fIiRJdUd8qC5UQ7nKSuDF0y2m67ydrbaUqu8eKMSDKZMBZf0yBh.UOtH-e8tGuJe_TmX?startTime=1647864395000
 
-7. https://ariel-ac-il.zoom.us/rec/share/zS-SY_Fy1EwMkuEOauf_YUFmPaTjjAZelVSEejV8Z40oGPMjhIelp5L5-iAS6VaH.6WG76auA0GyhaxNK?startTime=1647871339000
+7. [x] https://ariel-ac-il.zoom.us/rec/share/zS-SY_Fy1EwMkuEOauf_YUFmPaTjjAZelVSEejV8Z40oGPMjhIelp5L5-iAS6VaH.6WG76auA0GyhaxNK?startTime=1647871339000
 
-8. https://ariel-ac-il.zoom.us/rec/share/LbocOVpUdgA6L_cTG5kg63QhOjyDICURSbfxqNm1EfTnD-gpcNeTcaHm-biqltRr.nyEk5v-yZHEaOqex?startTime=1648465588000
+8. [x] https://ariel-ac-il.zoom.us/rec/share/LbocOVpUdgA6L_cTG5kg63QhOjyDICURSbfxqNm1EfTnD-gpcNeTcaHm-biqltRr.nyEk5v-yZHEaOqex?startTime=1648465588000
 
-9. https://ariel-ac-il.zoom.us/rec/share/LbocOVpUdgA6L_cTG5kg63QhOjyDICURSbfxqNm1EfTnD-gpcNeTcaHm-biqltRr.nyEk5v-yZHEaOqex?startTime=1648472082000
+9. [x] https://ariel-ac-il.zoom.us/rec/share/LbocOVpUdgA6L_cTG5kg63QhOjyDICURSbfxqNm1EfTnD-gpcNeTcaHm-biqltRr.nyEk5v-yZHEaOqex?startTime=1648472082000
 
-10. https://ariel-ac-il.zoom.us/rec/share/8s0bM3KhV243kqiSSjRnBnNJNXl1v58kUzN3QDwscEAUNi-derpsQnclekigv7ku.v73QXcQ6ALTouwoL?startTime=1649070108000
+10. [x] https://ariel-ac-il.zoom.us/rec/share/8s0bM3KhV243kqiSSjRnBnNJNXl1v58kUzN3QDwscEAUNi-derpsQnclekigv7ku.v73QXcQ6ALTouwoL?startTime=1649070108000
 
 11. https://ariel-ac-il.zoom.us/rec/share/V-M5vDR4HG9_SWh22lbTivD5NdmdNMgwq1HXG0arpEmjaKLVDr7JKKexO0YgJRvj.s59lj3t5_dTAz3cs?startTime=1649077157000
 
