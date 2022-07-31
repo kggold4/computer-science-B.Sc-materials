@@ -71,12 +71,57 @@ The FLANG grammer
 Where <id> refers to any valid symbol in Racket, and <num> colud be any Number in Racket.
 ```
 
-> [FLANG with SubstCache]()
+> [FLANG with SubstCache](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%203/Programming%20Languages/%D7%AA%D7%A8%D7%92%D7%95%D7%9C%20%D7%A7%D7%95%D7%93/%D7%9E%D7%94%D7%9E%D7%95%D7%93%D7%9C/FLANG_W_SubstCache.rkt)
 
-The problem the ```FLANG with SubstCache``` model trying to solve is the complexcity when we are using ```With``` or ```Fun & Cal``` in the regular FLANG or AWE models, the way we are solving this problem is by creating a Data Structure called ```SubstCache```, in a simple way to understand how this data structure worked we can say it's only a list/stack of tuples (couples) when the each tuple contains a variable name/sumbol and it's value, we are using this list/stack to assign each variable his value in running time and not in compilation time, the three basic operation we can operate on the SubstCache list/stack is:
+The problem the ```FLANG with SubstCache``` model trying to solve is the complexcity when we are using ```With``` or ```Fun & Cal``` in the regular ```FLANG``` or ```WAE``` models, the way we are solving this problem is by creating a data structure called ```SubstCache```, in a simple way to understand how this data structure worked we can say it's only a list/stack of tuples (couples) when the each tuple contains a variable name/symbol and it's value, we are using this list/stack to assign each variable to his value in running time and not in compilation time, the three basic operation we can operate on the SubstCache list/stack is:
 
-1. empty-subst - return an empty subst by assign it's value to null
+1. ```empty-subst``` - return an empty subst by assign it's value to null
 
-2. extend - adding a tuple to the list/stack
+2. ```extend``` - adding a tuple to the list/stack
 
-3. lookup - return a value of a variable in the list/stack by searching it by the variable name/symbol
+3. ```lookup``` - return a value of a variable in the list/stack by searching it by the variable name/symbol
+
+> [FLANG ENV](https://github.com/kggold4/computer-science-B.Sc-materials/blob/main/year%203/Programming%20Languages/%D7%AA%D7%A8%D7%92%D7%95%D7%9C%20%D7%A7%D7%95%D7%93/%D7%9E%D7%94%D7%9E%D7%95%D7%93%D7%9C/FLANG_ENV.rkt)
+
+The main problem by using the ```FLANG with SubstCache``` it's the way this model execute the code by using dynamic scoping and not static scoping (like AE/WAE/FLANG) and because of this we sometimes don't get the wantable value when we evaluate expresions or a single values, for example:
+
+### Static:
+
+```
+; using static scoping:
+(define x 123)
+(define (getx) x)                   ; return 123
+(define (bar1 x) (getx))
+(define (bar2 y) (getx))
+
+(test (getx) => ??)                 ; return 123
+((let ([x 456]) (getx)) => ??)      ; return 123
+(test (getx) => ??)                 ; return 123
+(test (bar1 999) => ??)             ; retrun 123
+(test (bar2 999) => ??)             ; retrun 123
+
+(define (foo x)
+  (define (helper) (+ x 1)) helper)
+(test ((foo 0)) => ??)              ; retrun 1
+```
+
+### Dynamic:
+
+```
+; using dynamic scoping:
+(define x 123)
+(define (getx) x)                   ; return 123
+(define (bar1 x) (getx))
+(define (bar2 y) (getx))
+
+(test (getx) => ??)                 ; return 123
+((let ([x 456]) (getx)) => ??)      ; return 456
+(test (getx) => ??)                 ; return 123
+(test (bar1 999) => ??)             ; retrun 999 - because in bar1 function we define x
+(test (bar2 999) => ??)             ; retrun 123 - because in bar1 function we define y
+
+(define (foo x)
+  (define (helper) (+ x 1)) helper)
+(test ((foo 0)) => ??)              ; retrun 124 - the body of the inner function remember
+                                    ; only the global variable that is value is 123
+```
