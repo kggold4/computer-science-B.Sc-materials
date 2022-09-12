@@ -1,4 +1,5 @@
-# Computer Science and Mathematics, Specialization in Data Science and Artificial Intelligence B.Sc Study Materials
+# Computer Science and Mathematics, Specialization in Data Science and Artificial Intelligence B.Sc. Study Materials
+
 <div align="center" style="text-align:center">
 	<a href="https://www.ariel.ac.il/wp/">
 		<img src="https://github.com/kggold4/computer-science-b.a-materials/blob/main/images/Ariel_U_logo2.jpg" height="auto" width="500px">
@@ -24,7 +25,7 @@
 
 1. [Algorithms 1](year%202/Algorithms%201)
 2. [Algorithms 2](year%202/Algorithms%202)
-3. [Algorithms in Artificial Intelligence](year%202/Algorithms%20in%20Artificial%20Intelligence)   
+3. [Algorithms in Artificial Intelligence](year%202/Algorithms%20in%20Artificial%20Intelligence)
 4. [Automata Theory 1](https://github.com/kggold4/computer-science-B.Sc-materials/tree/main/year%202/Automata%20theory%201)
 5. [Automata Theory 2](year%202/Automata%20Theory%202)
 7. [Databases](year%202/Databases)
@@ -43,13 +44,14 @@
 2. [Computability](year%203/Computability)
 3. [Computer Vision and Image Processing](year%203/Computer%20Vision%20and%20Image%20Processing)
 4. [Deep learning and Natural Language Processing](https://github.com/kggold4/computer-science-B.Sc-materials/tree/main/year%203/Deep%20learning%20and%20Natural%20Language%20Processing)
-5. [General Computer Science Seminar](year%203/General%20Computer%20Science%20Seminar)
-6. [Machine Learning](year%203/Machine%20Learning)
-7. [Probability for Computer Science 2](year%203/Probability%20for%20Computer%20Science%202)
-8. [Programming Languages](year%203/Programming%20Languages)
-9. [Programming Research Algorithms](https://github.com/kggold4/programming-research-algorithms-assignments)
-10. [Software Engineering](year%203/Software%20Engineering)
-
+5. [Economic Algorithms](year%203/Economic%20Algorithms)
+6. [Computer Science Seminar for Data Science](year%203/Computer%20Science%20Seminar%20for%20Data%20Science)
+7. [Machine Learning](year%203/Machine%20Learning)
+8. [Probability for Computer Science 2](year%203/Probability%20for%20Computer%20Science%202)
+9. [Programming Languages](year%203/Programming%20Languages)
+10. [Programming Research Algorithms](https://github.com/kggold4/programming-research-algorithms-assignments)
+11. [Software Engineering](year%203/Software%20Engineering)
+12. [Computer Games Development](year%203/Computer%20Games%20Development)
 
 ## My Summaries:
 
