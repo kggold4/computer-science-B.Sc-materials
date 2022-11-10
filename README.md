@@ -38,7 +38,7 @@
 13. [Software Programming 1 (C)](year%202/Software%20Programming%201)
 14. [Software Programming 2 (C++)](year%202/Software%20Programming%202)
 
-### <i>Year 3: (current)</i>
+### <i>Year 3 (current):</i>
 
 1. [Advanced Programming](year%203/Advanced%20Programming)
 2. [Computability](year%203/Computability)
