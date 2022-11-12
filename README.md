@@ -42,16 +42,17 @@
 
 1. [Advanced Programming](year%203/Advanced%20Programming)
 2. [Computability](year%203/Computability)
-3. [Computer Vision and Image Processing](year%203/Computer%20Vision%20and%20Image%20Processing)
-4. [Deep learning and Natural Language Processing](https://github.com/kggold4/computer-science-B.Sc-materials/tree/main/year%203/Deep%20learning%20and%20Natural%20Language%20Processing)
-5. [Economic Algorithms](year%203/Economic%20Algorithms)
-6. [Computer Science Seminar for Data Science](year%203/Computer%20Science%20Seminar%20for%20Data%20Science)
-7. [Machine Learning](year%203/Machine%20Learning)
-8. [Probability for Computer Science 2](year%203/Probability%20for%20Computer%20Science%202)
-9. [Programming Languages](year%203/Programming%20Languages)
-10. [Programming Research Algorithms](https://github.com/kggold4/programming-research-algorithms-assignments)
-11. [Software Engineering](year%203/Software%20Engineering)
-12. [Computer Games Development](year%203/Computer%20Games%20Development)
+3. [Computer Science Seminar for Data Science](year%203/Computer%20Science%20Seminar%20for%20Data%20Science)
+4. [Computer Vision and Image Processing](year%203/Computer%20Vision%20and%20Image%20Processing)
+5. [Deep learning and Natural Language Processing](https://github.com/kggold4/computer-science-B.Sc-materials/tree/main/year%203/Deep%20learning%20and%20Natural%20Language%20Processing)
+6. [Economic Algorithms](year%203/Economic%20Algorithms)
+7. [Final Project](year%203/Final%20Project)
+8. [Machine Learning](year%203/Machine%20Learning)
+9. [Probability for Computer Science 2](year%203/Probability%20for%20Computer%20Science%202)
+10. [Programming Languages](year%203/Programming%20Languages)
+11. [Programming Research Algorithms](https://github.com/kggold4/programming-research-algorithms-assignments)
+12. [Software Engineering](year%203/Software%20Engineering)
+13. [Computer Games Development](year%203/Computer%20Games%20Development)
 
 ## My Summaries:
 
