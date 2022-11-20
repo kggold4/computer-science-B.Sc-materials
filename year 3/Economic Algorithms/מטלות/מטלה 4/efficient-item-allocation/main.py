@@ -24,7 +24,14 @@ if __name__ == '__main__':
     # print(x)
     # item_allocation_two_players_graph = ItemAllocationTwoPlayersGraph(items_matrix)
 
-    items_matrix = [[11, 11, 55, 0], [22, 22, 33, 0], [33, 44, 0, 0]]
+    items_matrix = [[11, 22, 33], [11, 22, 44], [55, 33, 0]]
+    allocation_items = []
+    for items in items_matrix:
+        allocation_items.append(items)
+        allocation_items
+
+
+    # items_matrix = [[11, 11, 55, 0], [22, 22, 33, 0], [33, 44, 0, 0]]
     all_combinations = [itertools.combinations(x, len(items_matrix)) for x in items_matrix]
     print([[i for i in x] for x in all_combinations])
     # for i, j, k in zip():
