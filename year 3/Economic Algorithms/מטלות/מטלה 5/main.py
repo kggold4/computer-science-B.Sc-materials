@@ -1,3 +1,4 @@
+import random
 from typing import List
 import numpy as np
 
@@ -19,23 +20,35 @@ ARRAY_3 = [
 
 
 def sum_of_shared_agent_of_item(item: List[int]) -> int:
-    # TODO: add here doctests cases
+    """
+    >>> sum_of_shared_agent_of_item([0 for _ in range(random.randint(0, 100))])
+    0
+
+    >>> sum_of_shared_agent_of_item([1, 0, 0, 0, 0, 0])
+    1
+
+    >>> sum_of_shared_agent_of_item([0.5, 0, 0, 0, 0.5, 0])
+    2
+
+    >>> sum_of_shared_agent_of_item([0.3, 0, 0.6, 0, 0.3, 0])
+    3
+    """
     return len([item_division for item_division in item if item_division != 0])
 
 
-def isConsumptionGraphHasCircle(graph_matrix: np.array) -> bool:
+def is_consumption_graph_has_circle(graph_matrix: np.array) -> bool:
     """
     For each item check if the item is shared between more than two agents, if it is - return false, else - True
     The input array is a 2D matrix when row indexes represents the agents,
     and column indexes represents the part in percentage they get from the item.
 
-    >>> isConsumptionGraphHasCircle(np.array(ARRAY_1))
+    >>> is_consumption_graph_has_circle(np.array(ARRAY_1))
     True
 
-    >>> isConsumptionGraphHasCircle(np.array(ARRAY_2))
+    >>> is_consumption_graph_has_circle(np.array(ARRAY_2))
     True
 
-    >>> isConsumptionGraphHasCircle(np.array(ARRAY_3))
+    >>> is_consumption_graph_has_circle(np.array(ARRAY_3))
     False
 
     """
