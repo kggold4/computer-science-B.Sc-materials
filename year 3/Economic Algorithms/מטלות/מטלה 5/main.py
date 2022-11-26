@@ -18,10 +18,24 @@ ARRAY_3 = [
     [0, 0.5, 0.3]
 ]
 
+ARRAY_4 = [
+    [1, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 1, 0, 0, 0, 0, 0, 0, 0.6],
+    [0, 0, 1, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 1, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0.5, 0, 0, 0, 0.2],
+    [0, 0, 0, 0, 0, 1, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 1, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 1, 0],
+    [0, 0, 0, 0, 0, 0.5, 0, 1, 0.2]
+]
+
+MAX_RAND_INT_TEST = 100
+
 
 def sum_of_shared_agent_of_item(item: List[int]) -> int:
     """
-    >>> sum_of_shared_agent_of_item([0 for _ in range(random.randint(0, 100))])
+    >>> sum_of_shared_agent_of_item([0 for _ in range(random.randint(0, MAX_RAND_INT_TEST))])
     0
 
     >>> sum_of_shared_agent_of_item([1, 0, 0, 0, 0, 0])
@@ -50,6 +64,12 @@ def is_consumption_graph_has_circle(graph_matrix: np.array) -> bool:
 
     >>> is_consumption_graph_has_circle(np.array(ARRAY_3))
     False
+
+    >>> is_consumption_graph_has_circle(np.array(ARRAY_4))
+    False
+
+    >>> is_consumption_graph_has_circle(np.identity(random.randint(0, MAX_RAND_INT_TEST)))
+    True
 
     """
     for item in graph_matrix.transpose():
