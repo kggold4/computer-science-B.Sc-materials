@@ -6,6 +6,8 @@ import numpy as np
 
 def find_cycle_in_consumption_graph(allocation: List[List[float]]) -> bool:
     """
+    Assignement 6 Question 3:
+
     >>> find_cycle_in_consumption_graph([[0.01, 0.0, 0.0], [0.9, 0.0, 1.0], [0.0, 0.7, 0.0]])
     False
 
