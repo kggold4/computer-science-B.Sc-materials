@@ -28,7 +28,8 @@ def find_cycle_in_consumption_graph(allocation: List[List[float]]) -> bool:
         for obj in range(num_of_objects):
             # there is an edge from player to object
             # check if player get more than 0.0 of object
-            if allocation[plr][obj] > 0:
+            # assuming non-negative values
+            if allocation[plr][obj]:
                 graph.add_edge(plr, num_of_players + obj)
 
     # checking if there exists a cycle
