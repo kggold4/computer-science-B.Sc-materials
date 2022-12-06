@@ -15,6 +15,17 @@ def find_cycle_in_consumption_graph(allocation: List[List[float]]) -> bool:
     [(0, 3, 'forward'), (1, 3, 'reverse'), (1, 4, 'forward'), (0, 4, 'reverse')]
     True
 
+    >>> find_cycle_in_consumption_graph([[0.5, 0.5], [0.5, 0.5]])
+    [(0, 2, 'forward'), (1, 2, 'reverse'), (1, 3, 'forward'), (0, 3, 'reverse')]
+    True
+
+    >>> find_cycle_in_consumption_graph([[1.0, 0.0, 1.0, 0.0, 1.0],[0.0, 1.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 1.0, 0.0]])
+    False
+
+    >>> find_cycle_in_consumption_graph([[0.33, 0.33, 0.34], [0.33, 0.34, 0.33], [0.34, 0.33, 0.33]])
+    [(0, 3, 'forward'), (1, 3, 'reverse'), (1, 4, 'forward'), (0, 4, 'reverse')]
+    True
+
     """
     # bilateral graph
     graph = nx.DiGraph()
