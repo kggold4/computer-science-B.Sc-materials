@@ -1,4 +1,8 @@
-# Computer Science and Mathematics, Specialization in Data Science and Artificial Intelligence B.Sc. Study Materials
+# Computer Science and Mathematics B.Sc. Study Materials
+
+> Expertise in Data Science & Artificial Intelligence
+
+<hr>
 
 <div align="center" style="text-align:center">
 	<a href="https://www.ariel.ac.il/wp/">
