@@ -5,6 +5,7 @@ import cvxpy
 
 def nash_budget(total: float, subjects: List[str], preferences: List[List[str]]):
     """
+    # Assignment 9 Question 3
     # Example
 
     >>> example_total=500
