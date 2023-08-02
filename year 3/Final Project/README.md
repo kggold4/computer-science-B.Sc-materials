@@ -1,1 +1,3 @@
-Computer Science Final Project
+# Undergraduate final project workshop in Computer Science
+
+* [Our final project](https://github.com/all-news-project)
